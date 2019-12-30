@@ -4,7 +4,7 @@ FROM openjdk:8
 RUN mkdir -p /usr/src/myapp
 
 # COPY APPLICTAION COde
-COPY spring-boot-sample-atmosphere/target/spring-boot-samples-1.4.0.BUILD-SNAPSHOT.jar   /usr/src/myapp
+COPY spring-boot-sample-atmosphere/target/spring-boot-samples-1.4.0.BUILD-SNAPSHOT.jar  /usr/src/myapp/
 
 # Setup Working DIR
 WORKDIR /usr/src/myapp
